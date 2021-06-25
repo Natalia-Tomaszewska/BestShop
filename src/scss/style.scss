@@ -5,15 +5,17 @@
 //reset, normalize, helper-class
 @import "partials/normalize";
 
-
+body {
+  overflow-x: hidden;
+}
 .navigation-section {
   .navigation-header {
     width: 100vw;
 
 
     .navigation-container {
-      background: #FFFFFF 0% 0% no-repeat padding-box;
-      box-shadow: 0px 3px 6px #00000029;
+      background: #FFFFFF 0 0 no-repeat padding-box;
+      box-shadow: 0 3px 6px #00000029;
       opacity: 1;
       box-sizing: border-box;
       height: 70px;
@@ -24,7 +26,7 @@
 
       .navigation-logo {
         font-family: $logo-font;
-        letter-spacing: 0px;
+        letter-spacing: 0;
         color: #08A6E4;
         opacity: 1;
         font-size: 2rem;
@@ -61,4 +63,55 @@
       }
     }
   }
+}
+
+.opening-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+
+  h1 {
+    margin-top: 7%;
+    margin-bottom: 0;
+    text-align: center;
+    font: normal normal normal 49px/57px $logo-font;
+    letter-spacing: 0;
+    color: $color-black;
+    opacity: 1;
+  }
+
+  p {
+    text-align: center;
+    font: normal normal normal 16px/22px $text-font;
+    letter-spacing: 0;
+    color: $color-black;
+    opacity: 1;
+    margin-bottom: 3%;
+  }
+
+  .button {
+    display: inline-block;
+    width: 440px;
+    height: 67px;
+    line-height: 67px;
+    margin: 0 auto;
+    padding: 0;
+    background: #08A6E4 0 0 no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    opacity: 1;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      font: normal normal bold 16px/22px $text-font;
+      color: $color-white;
+    }
+  }
+.background {
+  box-shadow: 0px -5px 80px #00000029;
+}
 }
