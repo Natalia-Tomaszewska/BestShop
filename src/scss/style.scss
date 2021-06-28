@@ -505,3 +505,292 @@ body {
     }
   }
 }
+
+.pricelist-section {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+
+  .pricelist-text {
+    text-align: center;
+    font: normal normal normal 36px/42px $logo-font;
+    letter-spacing: 0;
+    color: $color-black;
+    opacity: 1;
+  }
+
+  .pricelist-container {
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .pricelist-box1 {
+      width: 372px;
+      height: 461px;
+      background: $color-white 0 0 no-repeat padding-box;
+      border: 1px solid $color-redish;
+      border-radius: 18px;
+      opacity: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+
+      .pricing-type {
+        margin-top: 51px;
+        text-align: left;
+        font: normal normal bold 20px/1px $logo-font;
+        letter-spacing: 0;
+        color: $color-headings;
+        opacity: 1;
+        margin-bottom: 14px;
+      }
+
+      .pricing-price {
+
+        text-align: left;
+        font: normal normal 300 46px/2px $text-font;
+        letter-spacing: 0;
+        color: $color-redish;
+        opacity: 1;
+      }
+
+      .pricelist-items {
+
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        font: normal normal normal 14px/41px $text-font;
+        letter-spacing: 0;
+        color: $color-black;
+        opacity: 1;
+        justify-content: center;
+
+
+        .pricing-item::before {
+          content: "";
+          width: 11px;
+          height: 11px;
+          display: inline-block;
+          margin-right: 10px;
+          background-image: url("../images/Ckechmark-1.svg");
+        }
+
+        .pricing-item_not::before {
+          content: "";
+          width: 11px;
+          height: 11px;
+          display: inline-block;
+          margin-right: 10px;
+          background-image: url("../images/Close.svg");
+        }
+
+      }
+
+      .btn {
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background: #EB476E 0 0 no-repeat padding-box;
+        border-radius: 23px;
+        opacity: 1;
+        text-decoration: none;
+        color: $color-white;
+        position: relative;
+        bottom: -40px;
+
+      }
+
+    }
+
+    .pricelist-box2 {
+      width: 405px;
+      height: 500px;
+      background: $color-white 0 0 no-repeat padding-box;
+      box-shadow: 5px 10px 27px $color-primary-shadow;
+      border: 1px solid $color-primary;
+      border-radius: 18px;
+      opacity: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 58px;
+      margin-left: 58px;
+
+
+      .pricing-type {
+        margin-top: 51px;
+        text-align: left;
+        font: normal normal bold 20px/1px $logo-font;
+        letter-spacing: 0;
+        color: $color-headings;
+        opacity: 1;
+        margin-bottom: 14px;
+      }
+
+      .pricing-price {
+
+        text-align: left;
+        font: normal normal 300 46px/2px $text-font;
+        letter-spacing: 0;
+        color: $color-primary;
+        opacity: 1;
+      }
+
+      .limited {
+        text-align: left;
+        font: normal normal bold 12px/1px $logo-font;
+        letter-spacing: 0;
+        color: $color-headings;
+        opacity: 1;
+      }
+
+      .pricelist-items {
+
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        font: normal normal normal 14px/41px $text-font;
+        letter-spacing: 0;
+        color: $color-black;
+        opacity: 1;
+        justify-content: center;
+
+
+        .pricing-item::before {
+          content: "";
+          width: 11px;
+          height: 11px;
+          display: inline-block;
+          margin-right: 10px;
+          background-image: url("../images/Ckechmark-1.svg");
+        }
+
+        .pricing-item_not::before {
+          content: "";
+          width: 11px;
+          height: 11px;
+          display: inline-block;
+          margin-right: 10px;
+          background-image: url("../images/Close.svg");
+        }
+
+      }
+
+      .btn {
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background: $color-primary 0 0 no-repeat padding-box;
+        border-radius: 23px;
+        opacity: 1;
+        text-decoration: none;
+        color: $color-white;
+        position: relative;
+        bottom: -50px;
+
+      }
+
+    }
+
+    .pricelist-box3 {
+      width: 372px;
+      height: 461px;
+      background: $color-white 0 0 no-repeat padding-box;
+      border: 1px solid $color-green;
+      border-radius: 18px;
+      opacity: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+
+      .pricing-type {
+        margin-top: 51px;
+        text-align: left;
+        font: normal normal bold 20px/1px $logo-font;
+        letter-spacing: 0;
+        color: $color-headings;
+        opacity: 1;
+        margin-bottom: 14px;
+      }
+
+      .pricing-price {
+
+        text-align: left;
+        font: normal normal 300 46px/2px $text-font;
+        letter-spacing: 0;
+        color: $color-green;
+        opacity: 1;
+      }
+
+      .pricelist-items {
+
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        font: normal normal normal 14px/41px $text-font;
+        letter-spacing: 0;
+        color: $color-black;
+        opacity: 1;
+        justify-content: center;
+
+
+        .pricing-item::before {
+          content: "";
+          width: 11px;
+          height: 11px;
+          display: inline-block;
+          margin-right: 10px;
+          background-image: url("../images/Ckechmark-1.svg");
+        }
+
+        .pricing-item_not::before {
+          content: "";
+          width: 11px;
+          height: 11px;
+          display: inline-block;
+          margin-right: 10px;
+          background-image: url("../images/Close.svg");
+        }
+
+      }
+
+      .btn {
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background: $color-green 0 0 no-repeat padding-box;
+        border-radius: 23px;
+        opacity: 1;
+        text-decoration: none;
+        color: $color-white;
+        position: relative;
+        bottom: -40px;
+
+      }
+
+    }
+
+  }
+}
