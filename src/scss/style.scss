@@ -946,8 +946,57 @@ body {
           font: normal normal bold 13px/18px $text-font;
           letter-spacing: 0;
           color: $color-white;
+          margin-bottom: 59px;
 
         }
+      }
+    }
+  }
+}
+
+.footer-section {
+  width: 100vw;
+  height: 89px;
+
+  .footer-container {
+    width: 100vw;
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: $color-light-grey 0 0 no-repeat padding-box;
+    box-shadow: 0px -5px 40px #00000029;
+    opacity: 1;
+    padding-left: 137px;
+    padding-right: 137px;
+
+    .footer-text {
+
+
+      .footer-logo {
+        text-align: left;
+        font: normal normal 300 26px/30px $logo-font;
+        letter-spacing: 0;
+        color: $color-primary;
+        opacity: 1;
+      }
+
+      .footer-copyright {
+        text-align: left;
+        font: normal normal normal 11px/15px $text-font;
+        letter-spacing: 0;
+        color: $color-grey;
+        opacity: 1;
+      }
+    }
+
+    .footer-social {
+      justify-self: flex-end;
+
+      .twitter {
+        margin-right: 20px;
       }
     }
   }
